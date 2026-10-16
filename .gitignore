@@ -1,0 +1,9 @@
+node_modules/
+reports/
+.project-review/
+*.log
+*.local.json
+*.local.html
+report.json
+report.html
+sample.csv

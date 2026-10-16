@@ -1,0 +1,9 @@
+{
+  "name": "road-signal-model-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test tests/*.test.mjs", "demo": "node cli.mjs --demo", "analyze": "node cli.mjs", "check": "node --check cli.mjs && node --check lib/signals.mjs && node --check lib/model.mjs && node --check lib/report.mjs" },
+  "dependencies": { "@tensorflow/tfjs-core": "4.22.0", "@tensorflow/tfjs-layers": "4.22.0", "@tensorflow/tfjs-backend-cpu": "4.22.0" }
+}
